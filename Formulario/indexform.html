@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./indexform.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Title</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="container">
+        
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="">Email</label>
+            <input type="email" id="email">
+            <label for="edad">Age (optional)</label>
+            <input type="number" id="edad">
+            <label for="pregunta1">Which option best describes your current role</label>
+            <select name="pregunta1" id="pregunta1">
+                <option>Select current rule</option>
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Employer</option>
+                <option>Visitor</option>
+                <option>Talent</option>
+            </select>
+            <div class="option">
+                <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+                <div>
+                    <input type="radio" name="recommend"> Definitely
+                </div>
+                <div>
+                    <input type="radio" name="recommend"> Maybe
+                </div>
+                <div>
+                    <input type="radio" name="recommend"> Not sure
+                </div>
+            </div>
+            <label for="pregunta2">What is your favorite feature of freeCodeCamp?</label>
+            <select name="pregunta2" id="pregunta2">
+                <option>Select an option</option>
+                <option>FrontEnd</option>
+                <option>BackEnd</option>
+                <option>FullStack</option>
+                <option>Nothing</option>
+            </select>
+            <div class="check1">
+                <label for="casillas">What would you like to see improved? (check all that apply)</label>
+                <input type="checkbox" id="casillas" >Front-end Projects
+                <input type="checkbox" id="casillas" >Back-end Projects
+                <input type="checkbox" id="casillas" >Data Visualization
+                <input type="checkbox" id="casillas" >Challenges
+                <input type="checkbox" id="casillas" >Open Source Community
+                <input type="checkbox" id="casillas" >Gitter help rooms
+                <input type="checkbox" id="casillas" >Videos
+                <input type="checkbox" id="casillas" >City Meetups
+                <input type="checkbox" id="casillas" >Wiki
+                <input type="checkbox" id="casillas" >Forum
+                <input type="checkbox" id="casillas" >Additional Courses
+            </div>
+            <label for="descrip">Any comments or suggestions?</label>
+            <textarea id="descrip" cols="30" placeholder="Enter your comment here..." rows="10"></textarea>
+            
+            <div class="buttn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+</html>
